@@ -1,0 +1,43 @@
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Container for input fields */
+.input-container {
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+    margin-left: 10px;
+}
+
+/* Container for graph sections */
+.graph {
+    margin-top: 20px;
+}
+
+#graphs {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling for bar graphs */
+.bar {
+    display: inline-block;
+    height: 20px;
+    margin: 5px;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.price-bar {
+    background-color: #4caf50;
+}
+
+.rating-bar {
+    background-color: #2196f3;
+}
